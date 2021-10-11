@@ -1,0 +1,18 @@
+---
+spring:
+  profiles:
+    active: docker
+
+server:
+  port: 8080
+
+app:
+  product:
+    host: product
+    port: 8080
+  recommendation:
+    host: recommendation
+    port: 8080
+  review:
+    host: review
+    port: 8080

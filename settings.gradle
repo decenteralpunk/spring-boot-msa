@@ -1,0 +1,8 @@
+rootProject.name = 'msa'
+include 'product'
+include 'review'
+include 'recommendation'
+include 'product-composite'
+include 'api'
+include 'util'
+
